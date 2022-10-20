@@ -17,8 +17,6 @@ def register(request):
     context = {'form': form}
     return render(request, 'registration/register.html', context)
 
-def logoutt(request):
-    return render(request, 'registration/logoutt.html')
 
 
 # Create your views here.
