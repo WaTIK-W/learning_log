@@ -11,8 +11,7 @@
     {{ form.as_p }}
 
     <button name="submit">Log in</button>
-    <input type="hidden" name="next"
-      value="{% url 'learning_logs:index' %}" />
+    <input type="hidden" name="next" value="{% url 'learning_logs:index' %}" />
   </form>
 
 {% endblock content %}
