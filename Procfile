@@ -1,1 +1,1 @@
-web: gunicorn learning_log.wsgi
+web: python learning_log/manage.py runserver 0.0.0.0:$PORT
