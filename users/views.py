@@ -18,9 +18,4 @@ def register(request):
     context = {'form': form}
     return render(request, 'registration/register.html', context)
 
-
-def logout_user(request):
-    logout(request)
-    return redirect('users:login')
-
 # Create your views here.
